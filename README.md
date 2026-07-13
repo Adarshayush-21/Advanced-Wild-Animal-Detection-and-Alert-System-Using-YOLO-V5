@@ -16,11 +16,9 @@ An AI-powered wildlife monitoring system that detects wild animals in real time 
 
 # 📖 Overview
 
-Human–wildlife conflict has become a major challenge in many forest-bordering regions. Wild animals such as elephants, tigers, leopards, and bears frequently enter nearby villages in search of food or water, causing damage to crops, property, livestock, and sometimes resulting in injuries or loss of life.
+The **Advanced Wild Animal Detection and Alert System Using YOLOv5** is an intelligent computer vision application that performs real-time detection of wild animals using deep learning techniques. It continuously monitors live video feeds, identifies animals with high accuracy, and automatically generates alerts through alarms, SMS, email notifications, and GPS location sharing.
 
-The **Advanced Wild Animal Detection and Alert System** leverages **Artificial Intelligence (AI)** and **Computer Vision** to automatically detect wild animals from CCTV cameras, webcams, or recorded videos. When an animal is detected, the system immediately triggers an alarm to warn nearby residents and authorities, enabling faster response and improving public safety.
-
-This project demonstrates how modern AI technologies can contribute to wildlife conservation while protecting human communities.
+The primary objective of this project is to provide an early warning system that helps protect people, livestock, and property while promoting safer coexistence between humans and wildlife. Built using **Python, YOLOv5, OpenCV, and PyTorch**, the system demonstrates the practical application of AI in environmental monitoring and public safety.
 
 ---
 
@@ -192,7 +190,7 @@ The **Advanced Wild Animal Detection and Alert System** is designed to enhance p
 
 ## Adarsh K S
 
-Computer Science Engineer
+Computer Science Graduate
 
 💻 Python Developer
 
