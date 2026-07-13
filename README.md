@@ -26,14 +26,9 @@ This project demonstrates how modern AI technologies can contribute to wildlife 
 
 # 🎯 Problem Statement
 
-Traditional wildlife monitoring relies heavily on manual surveillance, which can be:
+Human–wildlife conflict has become an increasing concern in many rural and forest-bordering regions. Wild animals often enter villages, farms, highways, and railway tracks in search of food and water, posing serious risks to both human lives and wildlife. Traditional monitoring methods rely on manual surveillance, which is time-consuming, resource-intensive, and often fails to provide timely warnings.
 
-- Time-consuming
-- Expensive
-- Inefficient during nighttime
-- Prone to delayed response
-
-This project aims to automate wildlife monitoring by providing real-time detection and instant alerts.
+This project addresses this challenge by developing an AI-powered real-time detection system using YOLOv5 and OpenCV. The system continuously monitors video streams, detects wild animals with high accuracy, and immediately triggers an alarm to alert nearby people. By providing early warnings, the solution aims to reduce accidents, protect communities, and support wildlife conservation efforts.
 
 ---
 
@@ -162,16 +157,20 @@ Display Detection Result
 
 ---
 
-# 🌍 Applications
+# 🌍 Project Applications
 
-- Wildlife Monitoring
-- Forest Surveillance
-- National Parks
-- Village Protection
-- Railway Track Monitoring
-- Highway Wildlife Detection
-- Smart Forest Management
-- Human–Wildlife Conflict Prevention
+The **Advanced Wild Animal Detection and Alert System** is designed to enhance public safety and wildlife monitoring by providing real-time detection and instant notifications. The system can be applied in the following scenarios:
+
+- 🦁 **Real-Time Wild Animal Detection** – Detects wild animals such as elephants, tigers, leopards, and bears from live CCTV cameras, webcams, or recorded videos using the YOLOv5 deep learning model.
+- 🚨 **Instant Alarm System** – Automatically activates an alarm when a wild animal is detected, providing an immediate warning to nearby residents.
+- 📩 **SMS Alert Notifications** – Sends instant SMS alerts to registered users, forest officials, or emergency contacts, enabling quick action during wildlife intrusions.
+- 📧 **Email Notifications** – Automatically sends email alerts containing information about the detected animal, helping authorities respond efficiently.
+- 📍 **GPS Location Tracking** – Shares the location of the detected animal, allowing forest departments and rescue teams to identify the affected area quickly.
+- 🎥 **24/7 Video Surveillance** – Continuously monitors live camera feeds and recorded videos without requiring manual supervision.
+- 🎯 **Accurate Object Detection** – Identifies wild animals with high accuracy by drawing bounding boxes and displaying confidence scores on the video stream.
+- 🌲 **Forest Border Protection** – Assists in monitoring forest boundaries to reduce human–wildlife conflicts in nearby villages and agricultural areas.
+- 👨‍🌾 **Farmland & Village Safety** – Helps protect farmers, livestock, and local communities by providing early warnings before animals reach populated areas.
+- 📊 **Wildlife Monitoring & Research** – Supports wildlife researchers and forest authorities by monitoring animal movement patterns and collecting valuable observational data.
 
 ---
 
@@ -186,53 +185,6 @@ Display Detection Result
 - 🌙 Improved night vision detection
 - 📊 Detection analytics dashboard
 - 🤖 Edge AI deployment using NVIDIA Jetson or Raspberry Pi
-
----
-
-# 📸 Screenshots
-
-> Add screenshots of your application here.
-
-Example:
-
-```
-assets/screenshots/home.png
-
-assets/screenshots/detection.png
-
-assets/screenshots/alarm.png
-```
-
----
-
-# 🎥 Demo
-
-You can upload your project demonstration video to YouTube and add the link here.
-
-Example:
-
-```
-https://youtu.be/your-demo-video
-```
-
----
-
-# 🤝 Contributing
-
-Contributions, suggestions, and feature requests are welcome.
-
-If you'd like to improve this project:
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Submit a Pull Request
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
